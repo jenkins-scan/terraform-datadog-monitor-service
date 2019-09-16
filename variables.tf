@@ -8,6 +8,11 @@ variable "tags" {
   description = "A map of common tags to associate with monitor."
 }
 
+variable "new_variable" {
+  type        = map
+  description = "A map of common tags to associate with monitor."
+}
+
 variable "custom_metrics" {
   type        = map
   description = "A list of maps with custom metrics values."
