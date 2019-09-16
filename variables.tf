@@ -13,6 +13,11 @@ variable "new_variable" {
   description = "A map of common tags to associate with monitor."
 }
 
+variable "new_variable2" {
+  type        = map
+  description = "A map of common tags to associate with monitor."
+}
+
 variable "custom_metrics" {
   type        = map
   description = "A list of maps with custom metrics values."
