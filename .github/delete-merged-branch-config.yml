@@ -1,6 +1,0 @@
-# List of branches that should not be automatically deleted after a merge.
-exclude:
-  - develop
-  - stage
-  - master
-  - base-stack
